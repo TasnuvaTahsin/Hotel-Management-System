@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Admin Found</title>
+	<title>Admin Not Found</title>
 </head>
 <style>
 	div {
@@ -30,7 +30,7 @@
 
 <body>
 	<div style="background-color: #f2f2f2;">
-		<br><br>New Admin Not Created.
+		<br><br>Admin Not Found.
 		<br><br>
 		<a href="admin_login_test.php">Redirect to Admin Login</a>
 	</div>

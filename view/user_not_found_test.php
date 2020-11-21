@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Admin Found</title>
+	<title>User Found</title>
 </head>
 <style>
 	div {
@@ -19,21 +18,18 @@
 		padding-bottom: 30px;
 		border-radius: 20px;
 	}
-
-	body {
-		background-color: #d9d9d9;
-		background-position: right top;
-		background-attachment: fixed;
-		background-size: cover;
+	body  {
+	  	background-color: #d9d9d9;
+	  	background-position: right top;
+	  	background-attachment: fixed;
+	  	background-size: cover;
 	}
 </style>
-
 <body>
 	<div style="background-color: #f2f2f2;">
-		<br><br>New Admin Not Created.
-		<br><br>
-		<a href="admin_login_test.php">Redirect to Admin Login</a>
+	<br><br>User Not Found.
+	<br><br>
+	<a href="user_login.php">Redirect to User Login</a>
 	</div>
 </body>
-
 </html>

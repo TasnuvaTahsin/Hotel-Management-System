@@ -30,7 +30,18 @@
 
 <body>
 	<div style="background-color: #f2f2f2;">
-		<br><br>New Admin Not Created.
+		<?php
+		$conn = new mysqli("localhost", "root", "", "hotelmanagement");
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		}
+		$sql = "SELECT * from temp";
+		$result = mysqli_query($conn, $sql);
+		$row = mysqli_fetch_row($result);
+		$sql = "DELETE from temp";
+		mysqli_query($conn, $sql);
+		echo "Your password is: " . $row[0];
+		?>
 		<br><br>
 		<a href="admin_login_test.php">Redirect to Admin Login</a>
 	</div>
